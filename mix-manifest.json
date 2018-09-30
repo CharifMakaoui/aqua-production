@@ -1,7 +1,7 @@
 {
-    "/worker/test-worker.js": "/worker/test-worker.js",
     "/js/home-scripts.js": "/js/home-scripts.js",
     "/js/globale-scripts.js": "/js/globale-scripts.js",
     "/css/home.css": "/css/home.css",
+    "/worker/test-worker.js": "/worker/test-worker.js",
     "/sw.js": "/sw.js"
 }
