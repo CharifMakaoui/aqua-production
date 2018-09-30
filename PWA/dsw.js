@@ -2,7 +2,7 @@ const PWASettings = {
     "dswVersion": 1.0,
     "applyImmediately": true,
     "appShell": [
-        "/index.html?homescreen=1"
+        "/index.html"
     ],
     "enforceSSL": false,
     "keepUnusedCaches": false,
@@ -1123,7 +1123,7 @@ var preCache;
 var failedAppShellFiles = [];
 var ROOT_SW_SCOPE = null;
 
-var DSW = { version: '1.12.2', build: '1538330649128', ready: null };
+var DSW = { version: '1.12.2', build: '1538342635615', ready: null };
 var REQUEST_TIME_LIMIT = 5000;
 var REGISTRATION_TIMEOUT = 12000;
 var DEFAULT_NOTIF_DURATION = 6000;
