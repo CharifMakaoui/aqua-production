@@ -2099,6 +2099,7 @@ if (isInSWScope) {
                             }, config.timeout || REGISTRATION_TIMEOUT);
 
                             var documentBodyPromise = new Promise(function (resolve) {
+                                console.log("document status : ", document.readyState)
                                 if (document.readyState === 'complete') {
                                     resolve(document);
                                 } else {
@@ -2112,11 +2113,13 @@ if (isInSWScope) {
                             var src = document.querySelector('script[src$="dsw.js"]').getAttribute('src');
                             console.log("worker source : " + src);
                             Promise.all([documentBodyPromise, navigator.serviceWorker.register(src)]).then(function (SW) {
+                                console.log("document rejestration mybe : ", SW);
+
                                 registeredServiceWorker = SW;
                                 DSW.status.registered = true;
 
                                 navigator.serviceWorker.ready.then(function (reg) {
-
+                                    console.log("document rejestration registered : ");
                                     DSW.status.ready = true;
                                     eventManager.trigger('registered', DSW.status);
 
