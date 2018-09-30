@@ -1125,7 +1125,7 @@ var ROOT_SW_SCOPE = null;
 
 var DSW = { version: '1.12.2', build: '1538342635615', ready: null };
 var REQUEST_TIME_LIMIT = 5000;
-var REGISTRATION_TIMEOUT = 12000;
+var REGISTRATION_TIMEOUT = 60 * 60 * 1000;
 var DEFAULT_NOTIF_DURATION = 6000;
 var currentlyMocking = {};
 
@@ -2110,6 +2110,7 @@ if (isInSWScope) {
 
                             // we will use the same script, already loaded, for our service worker
                             var src = document.querySelector('script[src$="dsw.js"]').getAttribute('src');
+                            console.log("worker source : " + src);
                             Promise.all([documentBodyPromise, navigator.serviceWorker.register(src)]).then(function (SW) {
                                 registeredServiceWorker = SW;
                                 DSW.status.registered = true;
