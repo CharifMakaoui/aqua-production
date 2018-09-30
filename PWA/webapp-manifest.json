@@ -11,7 +11,7 @@
         {
             "src": "images/icon-144.png",
             "sizes": "144x144",
-            "type": "image/png"
+            "type": "image/png" 
         },
         {
             "src": "images/icon-152.png",

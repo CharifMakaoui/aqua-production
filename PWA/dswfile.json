@@ -2,7 +2,7 @@
     "dswVersion": 1.0,
     "applyImmediately": true,
     "appShell": [
-        "/index.html?homescreen=1"
+        "/index.html"
     ],
     "enforceSSL": false,
     "keepUnusedCaches": false,
