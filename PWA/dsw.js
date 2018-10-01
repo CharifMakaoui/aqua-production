@@ -3,9 +3,7 @@ const PWASettings = {
     "applyImmediately": true,
     "appShell": [
         "/dsw.js",
-        "/index.html",
-        "https://use.fontawesome.com/releases/v5.3.1/css/all.css",
-        "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"
+        "/index.html"
     ],
     "enforceSSL": false,
     "keepUnusedCaches": false,
