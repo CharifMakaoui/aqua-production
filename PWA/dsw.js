@@ -1125,7 +1125,7 @@ var ROOT_SW_SCOPE = null;
 
 var DSW = { version: '1.12.2', build: '1538342635615', ready: null };
 var REQUEST_TIME_LIMIT = 5000;
-var REGISTRATION_TIMEOUT = 60 * 60 * 1000;
+var REGISTRATION_TIMEOUT = 12000;
 var DEFAULT_NOTIF_DURATION = 6000;
 var currentlyMocking = {};
 
@@ -2099,7 +2099,6 @@ if (isInSWScope) {
                             }, config.timeout || REGISTRATION_TIMEOUT);
 
                             var documentBodyPromise = new Promise(function (resolve) {
-                                console.log("document status : ", document.readyState)
                                 if (document.readyState === 'complete') {
                                     resolve(document);
                                 } else {
@@ -2111,15 +2110,12 @@ if (isInSWScope) {
 
                             // we will use the same script, already loaded, for our service worker
                             var src = document.querySelector('script[src$="dsw.js"]').getAttribute('src');
-                            console.log("worker source : " + src);
                             Promise.all([documentBodyPromise, navigator.serviceWorker.register(src)]).then(function (SW) {
-                                console.log("document rejestration mybe : ", SW);
-
                                 registeredServiceWorker = SW;
                                 DSW.status.registered = true;
 
                                 navigator.serviceWorker.ready.then(function (reg) {
-                                    console.log("document rejestration registered : ");
+
                                     DSW.status.ready = true;
                                     eventManager.trigger('registered', DSW.status);
 

@@ -4,5 +4,6 @@
     "/css/home.css": "/css/home.css",
     "/dash-layout.css": "/dash-layout.css",
     "/worker/test-worker.js": "/worker/test-worker.js",
+    "/PWA/psw.js": "/PWA/psw.js",
     "/sw.js": "/sw.js"
 }
