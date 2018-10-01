@@ -29,7 +29,8 @@
     "background_color": "#47b74f",
     "theme_color": "#438948",
 
-    "gcm_sender_id": "your-gcm-sender-id",
+    "gcm_sender_id": "482941778795",
+    "gcm_sender_id_comment": "Do not change the GCM Sender ID",
 
     "developer": {
         "name": "Aqua Society",

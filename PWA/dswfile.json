@@ -2,7 +2,11 @@
     "dswVersion": 1.0,
     "applyImmediately": true,
     "appShell": [
-        "/index.html"
+        "/dsw.js",
+        "/index.html",
+        "https://use.fontawesome.com/releases/v5.3.1/css/all.css",
+        "https://fonts.googleapis.com/css?family=Cairo|Tajawal",
+        "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"
     ],
     "enforceSSL": false,
     "keepUnusedCaches": false,
@@ -22,7 +26,7 @@
                 "cache": {
                     "name": "static-files",
                     "version": "1",
-                    "expires": "1h"
+                    "expires": "1d"
                 }
             }
         },

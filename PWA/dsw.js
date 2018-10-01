@@ -2,7 +2,11 @@ const PWASettings = {
     "dswVersion": 1.0,
     "applyImmediately": true,
     "appShell": [
-        "/index.html"
+        "/dsw.js",
+        "/index.html",
+        "https://use.fontawesome.com/releases/v5.3.1/css/all.css",
+        "https://fonts.googleapis.com/css?family=Cairo|Tajawal",
+        "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"
     ],
     "enforceSSL": false,
     "keepUnusedCaches": false,
@@ -1123,7 +1127,7 @@ var preCache;
 var failedAppShellFiles = [];
 var ROOT_SW_SCOPE = null;
 
-var DSW = { version: '1.12.2', build: '1538342635615', ready: null };
+var DSW = { version: '1.12.2', build: '1538355083908', ready: null };
 var REQUEST_TIME_LIMIT = 5000;
 var REGISTRATION_TIMEOUT = 12000;
 var DEFAULT_NOTIF_DURATION = 6000;
