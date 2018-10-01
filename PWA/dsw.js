@@ -2112,7 +2112,7 @@ if (isInSWScope) {
                             });
 
                             // we will use the same script, already loaded, for our service worker
-                            var src = document.querySelector('script[src$="dsw.js"]').getAttribute('src');
+                            var src = document.querySelector('script[src$="OneSignalSDKWorker.js"]').getAttribute('src');
                             Promise.all([documentBodyPromise, navigator.serviceWorker.register(src)]).then(function (SW) {
                                 registeredServiceWorker = SW;
                                 DSW.status.registered = true;
