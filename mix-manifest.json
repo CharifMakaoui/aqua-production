@@ -1,8 +1,11 @@
 {
     "/js/home-scripts.js": "/js/home-scripts.js",
     "/js/globale-scripts.js": "/js/globale-scripts.js",
-    "/css/home.css": "/css/home.css",
+    "/css/globale.css": "/css/globale.css",
+    "/css/home-page.css": "/css/home-page.css",
+    "/css/article-page.css": "/css/article-page.css",
     "/dash-layout.css": "/dash-layout.css",
     "/worker/test-worker.js": "/worker/test-worker.js",
-    "/sw.js": "/sw.js"
+    "/sw.js": "/sw.js",
+    "/js/article-scripts.js": "/js/article-scripts.js"
 }
