@@ -2,8 +2,7 @@ const PWASettings = {
     "dswVersion": 1.0,
     "applyImmediately": true,
     "appShell": [
-        "/dsw.js",
-        "/index.html"
+        "/dsw.js"
     ],
     "enforceSSL": false,
     "keepUnusedCaches": false,

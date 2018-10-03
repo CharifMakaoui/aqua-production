@@ -5,7 +5,5 @@
     "/css/home-page.css": "/css/home-page.css",
     "/css/article-page.css": "/css/article-page.css",
     "/dash-layout.css": "/dash-layout.css",
-    "/worker/test-worker.js": "/worker/test-worker.js",
-    "/sw.js": "/sw.js",
     "/js/article-scripts.js": "/js/article-scripts.js"
 }
