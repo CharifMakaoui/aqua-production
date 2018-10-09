@@ -1,9 +1,10 @@
 {
     "/js/home-scripts.js": "/js/home-scripts.js",
+    "/js/article-scripts.js": "/js/article-scripts.js",
     "/js/globale-scripts.js": "/js/globale-scripts.js",
     "/css/globale.css": "/css/globale.css",
     "/css/home-page.css": "/css/home-page.css",
     "/css/article-page.css": "/css/article-page.css",
-    "/dash-layout.css": "/dash-layout.css",
-    "/js/article-scripts.js": "/js/article-scripts.js"
+    "/css/label-page.css": "/css/label-page.css",
+    "/dash-layout.css": "/dash-layout.css"
 }
