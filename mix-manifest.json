@@ -6,5 +6,7 @@
     "/css/home-page.css": "/css/home-page.css",
     "/css/article-page.css": "/css/article-page.css",
     "/css/label-page.css": "/css/label-page.css",
-    "/dash-layout.css": "/dash-layout.css"
+    "/css/error404.css": "/css/error404.css",
+    "/dash-layout.css": "/dash-layout.css",
+    "/js/label-scripts.js": "/js/label-scripts.js"
 }
