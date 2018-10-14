@@ -2,11 +2,12 @@
     "/js/home-scripts.js": "/js/home-scripts.js",
     "/js/article-scripts.js": "/js/article-scripts.js",
     "/js/globale-scripts.js": "/js/globale-scripts.js",
+    "/js/label-scripts.js": "/js/label-scripts.js",
+    "/PWA/dsw.js": "/PWA/dsw.js",
     "/css/globale.css": "/css/globale.css",
     "/css/home-page.css": "/css/home-page.css",
     "/css/article-page.css": "/css/article-page.css",
     "/css/label-page.css": "/css/label-page.css",
     "/css/error404.css": "/css/error404.css",
-    "/dash-layout.css": "/dash-layout.css",
-    "/js/label-scripts.js": "/js/label-scripts.js"
+    "/dash-layout.css": "/dash-layout.css"
 }
