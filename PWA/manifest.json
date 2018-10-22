@@ -26,8 +26,8 @@
   ],
   "start_url": "/index.html?homescreen=1",
   "display": "standalone",
-  "background_color": "#47b74f",
-  "theme_color": "#438948",
+  "background_color": "#0db1b1",
+  "theme_color": "#fc3c3c",
   "gcm_sender_id": "482941778795",
   "gcm_sender_id_comment": "Do not change the GCM Sender ID",
   "developer": {

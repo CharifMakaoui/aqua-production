@@ -1,8 +1,8 @@
 {
+    "/js/home-scripts.js": "/js/home-scripts.js",
     "/js/AquaEditor.js": "/js/AquaEditor.js",
     "/js/article-scripts.js": "/js/article-scripts.js",
     "/js/globale-scripts.js": "/js/globale-scripts.js",
-    "/js/home-scripts.js": "/js/home-scripts.js",
     "/js/label-scripts.js": "/js/label-scripts.js",
     "/PWA/dsw.js": "/PWA/dsw.js",
     "/css/EditorStyle.css": "/css/EditorStyle.css",
